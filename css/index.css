@@ -1,0 +1,726 @@
+body {
+	font-family: strategosVerdana !important;
+}
+
+.nav_link_padding {
+	background: #036;
+    border-radius: 5px;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 12px 30px !important;
+}
+
+.nav_link_padding:hover {
+	color: #fff !important;
+}
+
+a.nav-link {
+	font-size: 14px;
+	padding: 12px 20px;
+}
+
+a.nav-link:hover {
+	color: #036;
+}
+
+.navbar_navbar {
+	padding: 0em 3em;
+}
+
+.company_logo {
+	height: 100px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #036;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #555;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #036;
+}
+
+li.nav-item {
+	padding: 0px 0px 0px 15px;
+}
+
+.home_banner {
+    background-image: url(../img/strategos-home-banner.jpg);
+    height: 550px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contact_banner {
+    background-image: url(../img/strategos-contact-us.jpg);
+    height: 550px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ourcompany_banner {
+    background-image: url(../img/strategos-our-company-banner-logo.jpg);
+    height: 550px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ourcompany_banner_banner_caption {
+	position: absolute;
+    left: 110px;
+    top: 200px;
+}
+
+.contact_banner_banner_caption {
+    position: absolute;
+    left: 110px;
+    top: 230px;
+}
+
+.home_banner_overlay {
+	background: #036;
+    height: 550px;
+    opacity: .6;
+}
+
+.banner_caption {
+    position: absolute;
+    left: 110px;
+    top: 135px;
+}
+
+.banner_caption_h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.banner_caption_p {
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.banner_caption_b {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.banner_img {
+	position: absolute;
+    right: 110px;
+    bottom: 110px;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+ 
+.lets_talk_button {
+	background-color: #036;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff !important;
+    padding: 15px 30px;
+    position: absolute;
+    top: 162px;
+    left: 60px;
+}
+
+.stratelogo {
+	height: 300px;
+}
+
+.lets_talk_button:hover {
+	text-decoration: none;
+}
+
+.home_whoweare_section {
+	height: auto;
+}
+
+.background_color {
+	background-color: #effdfe;
+    padding: 5em 0;
+}
+
+.strategos_hockey_stick {
+    background-image: url(../img/strategos-home-graph.jpg);
+    height: 250px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.button {
+	text-align: center;
+	width: 100%;
+    margin-top: 30px;
+}
+
+.home_sec_banner_h1 {
+	font-size: 3em;
+    text-align: center;
+    color: #036;
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+.home_sec_banner_a {
+	padding: 10px 40px;
+    text-transform: uppercase;
+    background-color: #036;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.home_ourprocess_section_background_color {
+	text-align: center;
+}
+
+.home_ourprocess_section_strategos_img {
+    background-image: url(../img/strategos-home-process-bg.jpg);
+    height: 1200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home_ourprocess_section_h1 {
+	color: #036;
+    font-size: 3em;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home_ourprocess_section_p {
+	position: absolute;
+    left: 430px;
+    top: 580px;
+    color: #fff;
+}
+
+.home_ourprocess_section_button {
+	margin-top: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 36em;
+}
+
+.home_ourprocess_section_button_a {
+	padding: 10px 40px;
+    text-transform: uppercase;
+    background-color: #036;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.home_ourprocess_section_button_a:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.ourteam_section_background_color {
+	background-color: #fff;
+    padding: 5em 0;
+}
+
+.ourteam_section_h1 {
+	font-size: 3em;
+    text-align: center;
+    color: #036;
+    padding: 0 0 50px;
+    margin: 0;
+}
+
+.ourteam_section_strategos_col {
+	border-right: 1px solid #000;
+    margin-bottom: 5em;
+}
+
+.strategos-team-adisa {
+	background-image: url(../img/home-strategos-team-adisa.png);
+    height: 520px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.strategos-team-dipe {
+	background-image: url(/static/media/home-strategos-team-dipe.b0c800cc.png);
+    height: 520px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.strategos-team-adisa-h1 {
+	font-size: 1.5em;
+    text-align: center;
+    color: #777;
+    padding: 0;
+    margin: 0;
+}
+
+.strategos-team-adisa-em {
+	text-align: center;
+    color: #2cc5f0;
+    font-size: 11px;
+    display: block;
+}
+
+.strategos-team-adisa-p {
+    font-size: 1em;
+    text-align: center;
+    color: #777;
+}
+
+.strategos-team-adisa-readmore {
+	text-transform: uppercase;
+    color: #036;
+    text-align: center;
+    font-size: 11px;
+    display: block;
+}
+
+.ourclient_section {
+    padding: 5em 0;
+    background: #000;
+}
+
+.client_logo {
+    height: 60px;
+    margin-right: 50px;
+}
+
+.last_img {
+    height: 60px;
+    margin-right: 0px;
+}
+
+.whatwedo_section {
+    height: auto;
+    background-color: #fff;
+    padding: 5em 0;
+}
+
+.strategos-home-what-we-do-background-img {
+	height: 400px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/strategos-home-whatwedo-background.jpg);
+    background-position: 50%;
+}
+
+.whatwedo_section_ul_li {
+    padding: 10px 0;
+    border-bottom: 1px solid #777;
+    list-style: none;
+    color: #777;
+    font-size: 1.5em;
+}
+
+.whatwedo_section_ul_li_img {
+	height: 100px;
+    margin-right: 30px;
+}
+
+.whatwedo_section_h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #036;
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+.news_letter_section {
+    background-color: #036;
+    padding: 5em 0;
+}
+
+.news_letter_section_col_2_img {
+    height: 100px;
+}
+
+.news_letter_section_col_10_h1 {
+    font-size: 3em;
+    text-align: left;
+    color: #fff;
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+.news_letter_section_col_10_p {
+	color: #fff;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.news_letter_section_button {
+    background: #2cc5f0;
+    text-transform: uppercase;
+}
+
+.news_letter_section_button:hover {
+    background: #2cc5f0;
+}
+
+.footer_section {
+    padding: 2em 0;
+}
+
+.footer_section_col_md_3 {
+	text-align: center;
+}
+
+.footer_section_col_md_3_img {
+    height: 100px;
+}
+
+.footer_section_col_md_3_p {
+    font-size: 10px;
+    color: #777;
+}
+
+.footer_section_col_md_3_h1 {
+    font-size: 10px;
+    color: #036;
+    text-transform: uppercase;
+}
+
+.footer_section_col_md_3_ul {
+	list-style: none;
+	padding-left: 0px !important;
+}
+
+.footer_section_col_md_3_li {
+    font-size: 9px;
+    line-height: 20px;
+    color: #777;
+}
+
+.footer_section_col_md_3_li_a {
+    color: #777;
+    text-decoration: none;
+}
+
+.footer_section_col_md_3_li_a:hover {
+	color: #777;
+    text-decoration: none;
+}
+
+.strategoscompany_media {
+	text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+
+.strategoscompany_media_li {
+	display: inline-block;
+    margin-right: 20px;
+}
+
+.fa {
+	font-size: 20px;
+    color: #2cc5f0;
+}
+
+.strategos_p {
+    border-top: 1px solid #777;
+    padding-top: 20px;
+    font-size: 10px;
+    color: #777;
+}
+
+.strategos_p_a {
+	color: #2cc5f0;
+}
+
+.strategos_p_a:hover {
+	color: #2cc5f0;
+}
+
+.strategos_p_b {
+	padding-left: 30px;
+}
+
+.whoweare_section_background_color {
+	background-color: #f2fcff;
+    padding: 5em 0;
+}
+
+.whoweare_section_h1 {
+	font-size: 3em;
+    text-align: center;
+    color: #036;
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+.whoweare_section_p {
+	font-size: 1em;
+    text-align: justify;
+    line-height: 25px;
+    color: #777;
+}
+
+.ourcompany_ourprocess_section {
+    background-image: url(../img/strategos-process-banner.jpg);
+    height: 550px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ourcompany_ourprocess_section_background_color {
+	background: #000;
+    opacity: .8;
+    height: 550px;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.ourcompany_ourprocess_section_background_color_h1 {
+	color: #fff;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.ourcompany_ourprocess_section_background_color_stratelogo {
+	height: 100px;
+}
+
+.ourcompany_ourprocess_section_background_color_col_md_3_h1 {
+	font-size: 1.5em;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.ourcompany_ourprocess_section_background_color_col_md_3_span {
+	border-bottom: 2px solid #fff;
+    display: block;
+    width: 15%;
+    margin: auto auto 15px;
+}
+
+.ourcompany_ourprocess_section_background_color_col_md_3_p {
+	font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.ourcompanyourteam_section {
+	height: auto;
+}
+
+.ourcompanyourteam_section_background_color {
+	background-color: #fff;
+    padding: 5em 0;
+}
+
+.ourcompanyourteam_section_h1 {
+	font-size: 3em;
+    text-align: center;
+    color: #036;
+    padding: 0 0 2em;
+    margin: 0;
+}
+
+.strategos_col {
+	margin-bottom: 5em;
+}
+
+.ourcompanyourteam_section_col_md_6_h1 {
+	font-size: 1.5em;
+    text-align: center;
+    color: #777;
+    padding: 0;
+    margin: 0;
+}
+
+.ourcompany_ourprocess_section_background_color_col_md_3_em {
+	text-align: center;
+    color: #2cc5f0;
+    font-size: 11px;
+    display: block;
+}
+
+.ourcompany_ourprocess_section_background_color_col_md_3_ppp {
+	font-size: 1em;
+    text-align: justify;
+    color: #777;
+}
+
+.strategos_team_adisa {
+	background-image: url(../img/strategos-team-adisa.png);
+    height: 500px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.whatwedo_banner {
+    background-image: url(../img/strategos-what-we-do-banner.jpg);
+    height: 550px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50%;
+}
+
+.services_section {
+    background: #373737;
+    padding: 3em 0;
+}
+
+.strategos-strategy {
+    background-image: url(../img/strategos-strategy.jpg);
+    height: 200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.services_section_card_title {
+	color: #777;
+	font-size: 14px;
+}
+
+.half_border {
+	display: block;
+    border: 2px solid #000;
+    width: 15%;
+}
+
+.services_section_li {
+	list-style: none;
+    font-size: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #777;
+    width: 80%;
+    color: #036;
+}
+
+.services_section_btn_primary {
+	background: #036;
+    color: #fff;
+}
+
+.services_section_btn_primary:hover {
+	color: #fff;
+}
+
+.fa_fa {
+    padding-right: 10px;
+    color: #777;
+}
+
+.strategos-recruitment {
+	background-image: url(../img/strategos-recruitment.jpg);
+    height: 200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.strategos-investors {
+	background-image: url(../img/strategos-investor.jpg);
+    height: 200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.services_section_card {
+	min-height: 470px;
+	max-height: 470px;
+}
+
+.services_section_ul_ul {
+	margin-bottom: 3em;
+}
+
+.button_section {
+	padding: 5em 0;
+}
+
+.button_section_btn_primary {
+	background: #2cc5f0;
+    color: #fff;
+    padding: 10px 80px;
+}
+
+.button_section_btn_primary:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.button_section_col_12 {
+	text-align: center;
+}
+
+.sendmessage_section {
+    padding: 3em 0;
+}
+
+.sendmessage_section_h1 {
+    font-size: 20px;
+    color: #036;
+}
+
+.sendmessage_section_span {
+    display: block;
+    border-bottom: 2px solid #000;
+    width: 20%;
+    margin: 10px 0 20px;
+}
+
+.sendmessage_section_p {
+    font-size: 11px;
+}
+
+.sendmessage_section_form {
+    margin-top: 2em;
+    width: 70%;
+    font-size: 11px;
+}
+
+.parent {
+    text-align: right;
+}
+
+.contact_parent_h1 {
+    color: #777;
+    font-size: 20px;
+}
+
+.contact_parent_p {
+    color: #2cc5f0;
+    font-size: 11px;
+}
+
+.contact_parent_bbb {
+    color: #777;
+    display: block;
+}
+
+.image {
+    background-image: url(../img/strategos-customer-support.jpg);
+    height: 550px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.image_banner_overlay {
+    background: #036;
+    height: 550px;
+    opacity: .6;
+}
+
+.googlemap_section {
+    padding: 2em 0 0;
+}
